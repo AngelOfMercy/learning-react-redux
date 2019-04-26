@@ -1,3 +1,8 @@
+
+Code is built off the following [repo](https://github.com/abhinayar/NodeExpressPugBoilerplate)
+
+---
+
 # NodeJS + Express + Pug Boilerplate
 Node.js application boilerplate for rapid prototyping and development.
 
