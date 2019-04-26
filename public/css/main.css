@@ -1,10 +1,10 @@
 .header {
 	flex-direction: row;
-	position: fixed;
 	top: 0;
 	right: 0;
 	left: 0;
 	background: lightblue;
+	margin-bottom: 12px;
 }
 
 .header-container {
@@ -13,7 +13,7 @@
 	flex-direction: row;
 	max-width: 100%;
 
-	padding: 1em;
+	padding: .5em;
 }
 
 .header-title {
@@ -24,7 +24,6 @@
 	justify-content: end;
 	align-content: flex-end;
 	display: flex;
-	width: 30%;
 	padding-right: 24px;
 }
 
@@ -33,21 +32,20 @@
 	text-align: center;
 	padding: 5px;
 	margin: 0;
-	width: 100%
+}
+
+.nav li {
+	display: inline-block;
+	width: 120px;
 }
 
 li:hover {
 	font-kerning: 100px
 }
 
-.nav li {
-	display: inline-block;
-	width: 80%;
-}
-
 .content {
 	background: #FEFEFE;
-	padding: 24px 10%;
+	padding: 12px 10%;
 	min-height: 85vh;
 	padding-top: 8vh;
 }
